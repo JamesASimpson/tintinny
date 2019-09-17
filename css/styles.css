@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat"
+}
+
+p {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+em {
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section{
+  background-color: #1B2D1B;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* Custom Big Headings */
+.big-heading-white {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.big-heading-black {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: black;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+
+
+/* Title Section - Large Icons */
+.fa-5x {
+  color: #2e482e;
+  margin-bottom: 1rem;
+}
+
+.fa-5x:hover {
+  color: #387B29;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-heading {
+  font-weight: 900;
+}
+
+.featurebox {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #2e482e;
+  text-align: center;
+}
+
+.profile {
+  border-radius: 100%;
+  width: 15%;
+  padding: 1rem;
+}
+
+/* Press */
+#press {
+  background-color: #2e482e;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 40px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.price-heading {
+  font-weight: 600;
+}
+
+.price-list-text {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #2e482e;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+}
+
+.fb {
+  color: #8f8f8f;
+  padding: 2%
+}
+
+@media (max-width: 1045px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
